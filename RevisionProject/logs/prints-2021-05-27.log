@@ -1,0 +1,5 @@
+18:21:24.111 [main] INFO  com.DemoCommerce.qa.TestCases.WelcomePageTest - Driver Initialized. Ready to Launch browser
+18:21:43.838 [main] INFO  com.DemoCommerce.qa.TestCases.WelcomePageTest - Browser opened successfully
+18:21:43.846 [main] INFO  com.DemoCommerce.qa.TestCases.WelcomePageTest - Sending data to Login page with username and password
+18:21:59.534 [main] INFO  com.DemoCommerce.qa.TestCases.WelcomePageTest - Login successfull
+11:44:32.203 [main] INFO  com.DemoCommerce.qa.TestCases.WelcomePageTest - Driver Initialized. Ready to Launch browser

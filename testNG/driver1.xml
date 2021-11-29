@@ -1,0 +1,12 @@
+<suite name = "sanity">
+<test name="release 1">
+	<classes>
+		<class name="com.testNG.EbayHome_Sanity"/>
+		<methods>
+		<exclude name ="empty_search_test"></exclude>
+		</methods>
+	</classes>
+</test>
+</suite>
+
+

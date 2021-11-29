@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-11T12:59:07 IST" name="Suite" finished-at="2021-05-11T12:59:08 IST" duration-ms="196">
+    <groups>
+      <group name="regression">
+        <method signature="AppiumDemoTest.restApi()[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" name="restApi" class="maven.RahulTestNGDemo.AppiumDemoTest"/>
+        <method signature="JavaPrintTest.javaScript()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" name="javaScript" class="maven.RahulTestNGDemo.JavaPrintTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AppiumDemoTest.appium()[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" name="appium" class="maven.RahulTestNGDemo.AppiumDemoTest"/>
+        <method signature="JavaPrintTest.python()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" name="python" class="maven.RahulTestNGDemo.JavaPrintTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="JavaPrintTest.java()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" name="java" class="maven.RahulTestNGDemo.JavaPrintTest"/>
+        <method signature="JavaPrintTest.python()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" name="python" class="maven.RahulTestNGDemo.JavaPrintTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-05-11T12:59:07 IST" name="Test" finished-at="2021-05-11T12:59:08 IST" duration-ms="196">
+      <class name="maven.RahulTestNGDemo.JavaPrintTest">
+        <test-method signature="java()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" started-at="2021-05-11T12:59:08 IST" name="java" finished-at="2021-05-11T12:59:08 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- java -->
+        <test-method signature="javaScript()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" started-at="2021-05-11T12:59:08 IST" name="javaScript" finished-at="2021-05-11T12:59:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScript -->
+        <test-method signature="parameter()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" started-at="2021-05-11T12:59:08 IST" name="parameter" finished-at="2021-05-11T12:59:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter -->
+        <test-method signature="python()[pri:0, instance:maven.RahulTestNGDemo.JavaPrintTest@2bbf180e]" started-at="2021-05-11T12:59:08 IST" name="python" finished-at="2021-05-11T12:59:08 IST" depends-on-methods="maven.RahulTestNGDemo.JavaPrintTest.javaScript" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- python -->
+      </class> <!-- maven.RahulTestNGDemo.JavaPrintTest -->
+      <class name="maven.RahulTestNGDemo.CarPrintTest">
+        <test-method signature="ferrari()[pri:0, instance:maven.RahulTestNGDemo.CarPrintTest@163e4e87]" started-at="2021-05-11T12:59:08 IST" name="ferrari" finished-at="2021-05-11T12:59:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ferrari -->
+        <test-method signature="jacquor()[pri:0, instance:maven.RahulTestNGDemo.CarPrintTest@163e4e87]" started-at="2021-05-11T12:59:08 IST" name="jacquor" finished-at="2021-05-11T12:59:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jacquor -->
+        <test-method signature="lambergini()[pri:0, instance:maven.RahulTestNGDemo.CarPrintTest@163e4e87]" started-at="2021-05-11T12:59:08 IST" name="lambergini" finished-at="2021-05-11T12:59:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lambergini -->
+      </class> <!-- maven.RahulTestNGDemo.CarPrintTest -->
+      <class name="maven.RahulTestNGDemo.TestingMethodsTest">
+        <test-method signature="regressionTest()[pri:0, instance:maven.RahulTestNGDemo.TestingMethodsTest@56de5251]" started-at="2021-05-11T12:59:08 IST" name="regressionTest" finished-at="2021-05-11T12:59:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressionTest -->
+        <test-method signature="smokeTest()[pri:0, instance:maven.RahulTestNGDemo.TestingMethodsTest@56de5251]" started-at="2021-05-11T12:59:08 IST" name="smokeTest" finished-at="2021-05-11T12:59:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+        <test-method signature="systemTest()[pri:0, instance:maven.RahulTestNGDemo.TestingMethodsTest@56de5251]" started-at="2021-05-11T12:59:08 IST" name="systemTest" finished-at="2021-05-11T12:59:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemTest -->
+      </class> <!-- maven.RahulTestNGDemo.TestingMethodsTest -->
+      <class name="maven.RahulTestNGDemo.AppiumDemoTest">
+        <test-method signature="api(java.lang.String, java.lang.String)[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" started-at="2021-05-11T12:59:08 IST" name="api" data-provider="data" finished-at="2021-05-11T12:59:08 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[map]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="api(java.lang.String, java.lang.String)[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" started-at="2021-05-11T12:59:08 IST" name="api" data-provider="data" finished-at="2021-05-11T12:59:08 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[map1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="api(java.lang.String, java.lang.String)[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" started-at="2021-05-11T12:59:08 IST" name="api" data-provider="data" finished-at="2021-05-11T12:59:08 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[move2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api -->
+        <test-method signature="appium()[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" started-at="2021-05-11T12:59:08 IST" name="appium" finished-at="2021-05-11T12:59:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium -->
+        <test-method signature="restApi()[pri:0, instance:maven.RahulTestNGDemo.AppiumDemoTest@419c5f1a]" started-at="2021-05-11T12:59:08 IST" name="restApi" finished-at="2021-05-11T12:59:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restApi -->
+      </class> <!-- maven.RahulTestNGDemo.AppiumDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="maven.RahulTestNGDemo.JavaPrintTest"/>  
+      <methods>
+     
+      </methods>      
+      <class name="maven.RahulTestNGDemo.CarPrintTest"/>
+      <class name="maven.RahulTestNGDemo.TestingMethodsTest"/>
+      <methods>
+      <exclude name="smokeTest"/>
+      </methods>
+      <class name="maven.RahulTestNGDemo.AppiumDemoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

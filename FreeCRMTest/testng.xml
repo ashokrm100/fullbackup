@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.pdf.compare.DynamicFilePath"/>
+      <class name="com.pdf.compare.MergeFile"/>
+      <class name="com.pdf.compare.InvoiceExcelData"/>
+      <class name="com.pdf.compare.TestContinue"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+      <class name="com.pdf.compare.SecondInvoice"/>
+      <class name="com.pdf.compare.PdfToExcel"/>
+      <class name="com.pdf.compare.SecondInvoiceConversion"/>
+      <class name="com.pdf.compare.DocumentConversion"/>
+      <class name="com.pdf.compare.Functioncalls"/>
+      <class name="com.crm.qa.testcases.ContactPageTest"/>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name=".NewTest"/>
+      <class name="com.pdf.compare.FormatInvoice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
